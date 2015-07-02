@@ -6,7 +6,8 @@ module.exports = (grunt) ->
         expand: true
         flatten: false
         src: [
-          'src/*.coffee'
+          '*.coffee'
+          '!Gruntfile.coffee'
         ]
         ext: '.js'
         options:
@@ -16,6 +17,7 @@ module.exports = (grunt) ->
         flatten: false
         src: [
           'src/*.coffee'
+          '!Gruntfile.coffee'
         ]
         dest: 'lib'
         ext: '.js'
