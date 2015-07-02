@@ -2,6 +2,8 @@
 
 A simple typography image generator for placeholder, headline or logotype. 
 
+[Demo: http://bin.zari.me](http://bin.zari.me)
+
 # Install
 
 `npm install image-text`
